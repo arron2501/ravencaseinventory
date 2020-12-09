@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Raven Case</string>
+    <string name="welcome">Welcome!</string>
+    <string name="sign_in_info">To access the apps, you need to sign in, or sign up to create new account.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inputUsername">Username</string>
+    <string name="inputPassword">Password</string>
+    <string name="inputRePassword">Repeat Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="stock">15</string>
+    <string name="cases">CASES</string>
+    <string name="production">6</string>
+    <string name="in_stock">In Stock</string>
+    <string name="in_production">In Production</string>
+    <string name="packing">4</string>
+    <string name="on_packing">On Packing</string>
+    <string name="delivery">2</string>
+    <string name="on_delivery">On Delivery</string>
+
+    <string name="inStock">Stock</string>
+    <string name="inProduction">Production</string>
+    <string name="onPacking">Packing</string>
+    <string name="onDelivery">Delivery</string>
+    <string name="account">Account</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="rivaltino_arron">Rivaltino Arron</string>
+    <string name="admin_1">Admin 1</string>
+    <string name="profile">Profile</string>
+    <string name="astronaut">7</string>
+    <string name="stock_astronaut">Astronaut</string>
+    <string name="fortnite">5</string>
+    <string name="stock_fortnite">Fortnite</string>
+    <string name="marvel">3</string>
+    <string name="stock_marvel">Marvel</string>
+
+    <string name="item_description">
+        SUITABLE DEVICES : \niPhone 11, iPhone 11 Pro, iPhone 11 Pro Max, iPhone 4/4s, iPhone 5/5s/SE, iPhone 5c, iPhone 6+/6s+, iPhone 6/6s, iPhone 7/8, iPhone 7+/8+, iPhone X/Xs, iPhone Xr, iPhone Xs Max.
+    </string>
+    <string name="real_name">Real Name</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_center_description">If you need help about anything, you can leave the message using email or WhatsApp with the button below</string>
+    <string name="contact_center_title">Contact Center</string>
+</resources>

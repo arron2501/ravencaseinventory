@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        app:elevation="0dp">
+
+        <!-- Welcome! -->
+
+        <ImageView
+            android:id="@+id/welcome"
+            android:layout_width="373dp"
+            android:layout_height="295dp"
+            android:padding="10dp"
+            android:src="@drawable/welcome" />
+
+        <TextView
+            android:id="@+id/welcome_"
+            android:layout_width="279dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/welcome"
+            android:textAppearance="@style/welcome" />
+
+        <TextView
+            android:id="@+id/to_access_t"
+            android:layout_width="309dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/sign_in_info" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="400dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/tabTextColor"
+        app:tabIndicatorColor="@color/tabIndicatorColor"
+        app:tabTextAppearance="@style/tabStyle"
+        android:background="@color/colorPrimary"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="450dp" />
+
+</RelativeLayout>

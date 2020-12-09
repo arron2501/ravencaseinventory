@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/Fragment_Dashboard"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Dashboard" >
+
+    <LinearLayout
+        android:id="@+id/imgInStock"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/mockup1"
+        android:layout_marginStart="46dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:text="15"
+                android:textAppearance="@style/dashboard_stock"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cases"
+                android:textAppearance="@style/dashboard_cases"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-7dp"
+            android:text="In Stock"
+            android:textAppearance="@style/dashboard_title"
+            android:layout_marginStart="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imgInProduction"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/mockup2"
+        android:layout_marginStart="46dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:text="6"
+                android:textAppearance="@style/dashboard_stock"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cases"
+                android:textAppearance="@style/dashboard_cases"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-7dp"
+            android:text="In Production"
+            android:textAppearance="@style/dashboard_title"
+            android:layout_marginStart="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imgOnPacking"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="309dp"
+        android:background="@drawable/mockup3"
+        android:layout_marginStart="46dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:text="4"
+                android:textAppearance="@style/dashboard_stock"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cases"
+                android:textAppearance="@style/dashboard_cases"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-7dp"
+            android:text="On Packing"
+            android:textAppearance="@style/dashboard_title"
+            android:layout_marginStart="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imgOnDelivery"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="439dp"
+        android:background="@drawable/mockup4"
+        android:layout_marginStart="46dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:text="2"
+                android:textAppearance="@style/dashboard_stock"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cases"
+                android:textAppearance="@style/dashboard_cases"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-7dp"
+            android:text="On Delivery"
+            android:textAppearance="@style/dashboard_title"
+            android:layout_marginStart="25dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Fragment_Stock"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment_Stock">
+
+    <LinearLayout
+        android:id="@+id/imgStockAstronaut"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/astronaut"
+        android:layout_marginStart="46dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:text="@string/astronaut"
+            android:textAppearance="@style/dashboard_stock"
+            android:layout_marginStart="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cases"
+            android:textAppearance="@style/dashboard_cases"
+            android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-7dp"
+            android:text="@string/stock_astronaut"
+            android:textAppearance="@style/dashboard_title"
+            android:layout_marginStart="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imgStockFortnite"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/fortnite"
+        android:layout_marginStart="46dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:text="@string/fortnite"
+                android:textAppearance="@style/dashboard_stock"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cases"
+                android:textAppearance="@style/dashboard_cases"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-7dp"
+            android:text="@string/stock_fortnite"
+            android:textAppearance="@style/dashboard_title"
+            android:layout_marginStart="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imgStockMarvel"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="309dp"
+        android:background="@drawable/marvel"
+        android:layout_marginStart="46dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:text="@string/marvel"
+                android:textAppearance="@style/dashboard_stock"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cases"
+                android:textAppearance="@style/dashboard_cases"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-7dp"
+            android:text="@string/stock_marvel"
+            android:textAppearance="@style/dashboard_title"
+            android:layout_marginStart="25dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

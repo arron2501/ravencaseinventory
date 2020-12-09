@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_basetoolbar" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="353dp"
+        android:layout_height="353dp"
+        android:src="@drawable/contact_center"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:text="@string/contact_center_title"
+        android:textAppearance="@style/contact_center_title"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/contact_center_description"
+        android:textAppearance="@style/contact_center_description"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_signin_button"
+        android:hint="Email us"
+        android:textAppearance="@style/signInButton" />
+
+    <Button
+        android:id="@+id/buttonWhatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_signup_button"
+        android:hint="WhatsApp us"
+        android:textAppearance="@style/signInButton" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="or just directly. . ."
+        android:textAlignment="center"
+        android:textAppearance="@style/textField"
+        android:textStyle="italic"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#F1F3F6"
+        android:hint="Call us"
+        android:textAppearance="@style/signInButton" />
+
+</LinearLayout>
